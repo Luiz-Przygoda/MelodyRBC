@@ -42,14 +42,6 @@ Este projeto utiliza a base de dados **top_10000_1960-now**.
 - Após o download, extraia o arquivo compactado (\`.zip\`).  
 - Mova o arquivo **top_10000_1960-now** para a raiz do projeto, na mesma pasta onde está o arquivo **app.py**.  
 
-
-### 3. Instale as Dependências
-As dependências estão listadas no arquivo **requirements.txt**. Instale todas de uma vez com o comando:
-
-\`\`\`sh
-pip install -r requirements.txt
-\`\`\`
-
 ---
 
 ## ▶️ Como Executar
