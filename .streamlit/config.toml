@@ -1,0 +1,15 @@
+[theme]
+# Cor de fundo principal
+backgroundColor = "#121212"
+
+# Cor de fundo secundária (usada em sidebars, etc.)
+secondaryBackgroundColor = "#1E1E1E"
+
+# Cor do texto principal
+textColor = "#FFFFFF"
+
+# Cor da fonte primária (usada em botões, links, etc.)
+primaryColor = "#1DB954"
+
+# Fontes
+font = "sans serif"
