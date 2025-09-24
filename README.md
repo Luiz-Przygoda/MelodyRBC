@@ -65,3 +65,8 @@ MelodyRBC/
 ├── top_10000_1960-now   # Arquivo da base de dados (deve ser baixado)  
 └── README.md            # Documentação do projeto  
 \`\`\`
+
+## **🤝 Colaboradores**
+| [<img src="https://avatars.githubusercontent.com/u/115050869?v=4" width="115">](https://github.com/Luiz-Przygoda) | [<img src="https://avatars.githubusercontent.com/u/166075318?v=4" width="115">](https://github.com/Wyllye) | [<img src="https://avatars.githubusercontent.com/u/125486974?v=4" width="115">](https://github.com/mariaglx) | [<img src="https://avatars.githubusercontent.com/u/75136675?v=4" width="115">](https://github.com/marcobgh)|
+|:-----------------------------------------------------------------------:|:--------------------------------------------------------------------------:|:-----------------------------------------------------------------------:|:-----------------------------------------------------------------------:|:--------------------------------------------------------------------:|
+| **Caursnn**                                                              | **Jaogz**                                                               | **Mariaglx**                                                           | **Marco**                                                              |
