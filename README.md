@@ -1,36 +1,76 @@
-# MelodyRBC
+# 🎧 Melody RBC - Sistema de Recomendação de Músicas
 
-Um sistema de recomendação de músicas baseado em Raciocínio Baseado em Casos (CBR) usando Streamlit.
+![Banner do App](https://i.imgur.com/g0L5a1N.png)
 
-## Pré-requisitos
+**Melody RBC** é uma aplicação web interativa, construída com **Streamlit**, que utiliza uma abordagem de IA de **Raciocínio Baseado em Casos (RBC)** — também conhecida como *Filtragem Baseada em Conteúdo* — para gerar recomendações musicais personalizadas.
 
-- Python 3.8+
-- [pip](https://pip.pypa.io/en/stable/)
-
-## Instalação
-
-1. Clone este repositório e acesse a pasta do projeto.
-2. Instale as dependências:
-
-```sh
-pip install streamlit pandas numpy scikit-learn
-```
-
-3. Certifique-se de que o arquivo `tcc_ceds_music.csv` está na mesma pasta que o script `streamlit_music_cbr.py`.
-
-## Como rodar
-
-Execute o comando abaixo no terminal:
-
-```sh
-streamlit run streamlit_music_cbr.py
-```
-
-O aplicativo será aberto em seu navegador padrão.
-
-## Observações
-
-- O arquivo de dados `tcc_ceds_music.csv` deve estar presente na mesma pasta do script.
-- Ajuste os parâmetros na barra lateral para personalizar as recomendações.
+A aplicação analisa características textuais (gênero, artista) e sonoras (dançabilidade, energia, etc.) de uma música, artista ou álbum para encontrar outras músicas com uma "vibe" similar na base de dados.
 
 ---
+
+## 🚀 Principais Funcionalidades
+
+- **Recomendação Inteligente:** Busque por música, artista ou álbum e receba recomendações baseadas em conteúdo.  
+- **Filtros Avançados:** Refine sua busca por ano de lançamento, gênero, nível de dançabilidade e energia.  
+- **Gerador de Playlist IA:** Insira até 3 dos seus artistas favoritos e a IA criará uma playlist mesclando músicas deles com novas descobertas de artistas similares.  
+- **Interface Interativa:** Uma interface limpa e amigável construída com Streamlit.  
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Python 3.8+**  
+- **Streamlit** (para a interface web)  
+- **Pandas** (para manipulação de dados)  
+- **Scikit-learn** (para a lógica de Machine Learning - TF-IDF e Similaridade)  
+- **Numpy** (para computação numérica)  
+
+---
+
+## ⚙️ Instalação e Configuração
+
+Siga os passos abaixo para rodar o projeto localmente.
+
+### 1. Clone o Repositório
+\`\`\`sh
+git clone https://github.com/seu-usuario/MelodyRBC.git
+cd MelodyRBC
+\`\`\`
+
+### 2. Obtenha a Base de Dados
+Este projeto utiliza a base de dados **top_10000_1960-now**. 
+
+- Após o download, extraia o arquivo compactado (\`.zip\`).  
+- Mova o arquivo **top_10000_1960-now** para a raiz do projeto, na mesma pasta onde está o arquivo **app.py**.  
+
+
+### 3. Instale as Dependências
+As dependências estão listadas no arquivo **requirements.txt**. Instale todas de uma vez com o comando:
+
+\`\`\`sh
+pip install -r requirements.txt
+\`\`\`
+
+---
+
+## ▶️ Como Executar
+
+Com o ambiente virtual ativado e as dependências instaladas, execute o seguinte comando no terminal:
+
+\`\`\`sh
+streamlit run app.py
+\`\`\`
+
+A aplicação será iniciada e aberta automaticamente no seu navegador.
+
+---
+
+## 📂 Estrutura do Projeto
+\`\`\`
+MelodyRBC/
+├── .streamlit/
+│   └── config.toml      # (Opcional) Configurações de tema do Streamlit
+├── app.py               # Código principal da aplicação Streamlit
+├── top_10000_1960-now   # Arquivo da base de dados (deve ser baixado)
+└── README.md            # Documentação do projeto
+\`\`\`
