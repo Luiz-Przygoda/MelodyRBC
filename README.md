@@ -59,9 +59,9 @@ A aplicação será iniciada e aberta automaticamente no seu navegador.
 ## 📂 Estrutura do Projeto
 \`\`\`
 MelodyRBC/
-├── .streamlit/
-│   └── config.toml      # (Opcional) Configurações de tema do Streamlit
-├── app.py               # Código principal da aplicação Streamlit
-├── top_10000_1960-now   # Arquivo da base de dados (deve ser baixado)
-└── README.md            # Documentação do projeto
+├── .streamlit/  
+│   └── config.toml      # (Opcional) Configurações de tema do Streamlit  
+├── app.py               # Código principal da aplicação Streamlit  
+├── top_10000_1960-now   # Arquivo da base de dados (deve ser baixado)  
+└── README.md            # Documentação do projeto  
 \`\`\`
