@@ -1,6 +1,5 @@
-# 🎧 Melody RBC - Sistema de Recomendação de Músicas
+### 🎧 Melody RBC - Sistema de Recomendação de Músicas
 
-![Banner do App](https://i.imgur.com/g0L5a1N.png)
 
 **Melody RBC** é uma aplicação web interativa, construída com **Streamlit**, que utiliza uma abordagem de IA de **Raciocínio Baseado em Casos (RBC)** — também conhecida como *Filtragem Baseada em Conteúdo* — para gerar recomendações musicais personalizadas.
 
