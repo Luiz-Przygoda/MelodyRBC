@@ -67,6 +67,6 @@ MelodyRBC/
 \`\`\`
 
 ## **🤝 Colaboradores**
-| [<img src="https://avatars.githubusercontent.com/u/115050869?v=4" width="115">](https://github.com/Luiz-Przygoda) | [<img src="https://avatars.githubusercontent.com/u/166075318?v=4" width="115">](https://github.com/Wyllye) | [<img src="https://avatars.githubusercontent.com/u/125486974?v=4" width="115">](https://github.com/mariaglx) | [<img src="https://avatars.githubusercontent.com/u/75136675?v=4" width="115">](https://github.com/marcobgh)|
+| [<img src="https://avatars.githubusercontent.com/u/142179999?v=4" width="115">](https://github.com/Luiz-Przygoda) | [<img src="https://avatars.githubusercontent.com/u/113839563?v=4" width="115">](https://github.com/Wyllye) | [<img src="https://avatars.githubusercontent.com/u/125486974?v=4" width="115">](https://github.com/mariaglx) | [<img src="https://avatars.githubusercontent.com/u/75136675?v=4" width="115">](https://github.com/marcobgh)|
 |:--------------------------------------------------------------------------:|:-----------------------------------------------------------------------:|:-----------------------------------------------------------------------:|:--------------------------------------------------------------------:|
 | **Luiz-Przygoda**                                                              | **Wyllye**                                                               | **Mariaglx**                                                           | **Marcobgh**                                                              |
