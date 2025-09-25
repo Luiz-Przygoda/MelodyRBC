@@ -117,7 +117,7 @@ st.set_page_config(page_title="Melody RBC", layout="wide", page_icon="🎧")
 st.markdown("""
 <style>
     .card {
-        border: 1px solid #333; border-radius: 10px; padding: 0.8rem;
+        border: 1px solid #333; border-radius: 10px; padding: 0.8rem; margin-bottom: 1rem;
         background-color: #1E1E1E; text-align: center; height: 280px;
         display: flex; flex-direction: column; justify-content: space-between;
         transition: transform 0.2s ease-in-out;
@@ -204,7 +204,7 @@ with tab1:
                         track_uri = r.get('track_uri')
                         if track_uri and isinstance(track_uri, str) and 'spotify:track:' in track_uri:
                             track_id = track_uri.split(':')[-1]
-                            spotify_url = f"https://open.spotify.com/track/TRACK_ID"
+                            spotify_url = f"https://open.spotify.com/track/{track_id}"
                         
                         st.markdown(f"""
                         <a href="{spotify_url}" target="_blank" style="text-decoration: none;">
@@ -273,7 +273,7 @@ with tab2:
                         track_uri = track.get('track_uri')
                         if track_uri and isinstance(track_uri, str) and 'spotify:track:' in track_uri:
                             track_id = track_uri.split(':')[-1]
-                            spotify_url = f"https://open.spotify.com/track/TRACK_ID"
+                            spotify_url = f"https://open.spotify.com/track/{track_id}"
                         
                         st.markdown(f"""
                         <a href="{spotify_url}" target="_blank" style="text-decoration: none;">
